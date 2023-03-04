@@ -1,16 +1,17 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
-function BuTton({setisopen,isopen,children}) {
 
-  const handleCreateNewClick = () => {
-    setisopen(!isopen);
-};
-
+function Button({children}) {
   return (
-    <button className='py-2 my-2 w-48 rounded-md bg-green' onClick={handleCreateNewClick}>
-      {children}
-    </button>
+    <Link to="/Blog/newblog">  
+      <div className='flex flex-col items-center'>
+        <button className=' py-2 my-2 w-40 rounded-[10px] bg-primary font-roboto font-normal text-white'>
+          {children}
+        </button>
+      </div>
+    </Link>
   )
 }
 
-export default BuTton
+export default Button;

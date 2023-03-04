@@ -1,28 +1,21 @@
-import {React, useState } from 'react';
+import React from 'react';
 import SecSidebar from '../reusable/SecSidebar';
-import BuTton from '../reusable/BuTton';
+import Button from '../reusable/Button';
 import CardList from '../components/Card';
-import BlogPost from '../components/BlogPost';
+import {Outlet} from "react-router-dom";
+import '../css/Blog.css';
 
 function Blog() {
-  const [selectedPost, setSelectedPost] = useState(null);
-  const [isopen, setisopen] = useState(false);
-
-  const handlePostClick = (post) => {
-    setSelectedPost(post);
-  }
 
   return (
-    <div className='flex h-screen'>
+    <div className='flex h-full w-full'>
       <SecSidebar>
-        <div className='space-y-3'>
-         <BuTton setisopen={setisopen} isopen={isopen}>
-            Create blog
-         </BuTton>
-         <CardList onPostClick={handlePostClick} setisopen={setisopen}/>
-        </div>
+          <Button>
+              Create blog
+          </Button>
+          <CardList/>
       </SecSidebar>
-      {isopen ?<div>New blog section</div>:(selectedPost ? <BlogPost id={selectedPost} /> : <div>No Blog Selected</div>)}
+      <Outlet />
     </div>
   )
 }

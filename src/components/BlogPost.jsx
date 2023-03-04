@@ -6,10 +6,10 @@ function BlogPost() {
   const post = CardListData.find((post) => post.id === Number(id));
 
   return (
-    <div className='flex flex-col space-y-5 justify-center items-center w-4/5 bg-lightgreen'>
+    <div className='flex flex-col h-full bg-darkblue space-y-5 justify-center items-center bg-lightgreen'>
       <h1>{post.blogTitle}</h1>
       <img src={post.authorAvatar} alt={post.authorName} className='w-24 h-24' />
-      <p>{post.blogShortDescription}</p>
+      <p className='px-2'>{post.blogShortDescription}</p>
     </div>
   );
 }

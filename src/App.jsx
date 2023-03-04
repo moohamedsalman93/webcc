@@ -13,17 +13,19 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Header/>
-      <SideBar>
-        <Routes>
-          <Route path="Blog" element={<Blog/>}>
-            <Route path="newblog" element={< NewBlog/>} />
-            <Route path=":id" element={<BlogPost />} />
-          </Route>
-          <Route path="Storage" element={<Storage/>}/>
-          <Route path="Pages" element={<Pages/>}/>
-        </Routes>
-      </SideBar>
+      
+        <Header/>
+        <SideBar>
+          <Routes>
+            <Route path="Blog" element={<Blog/>}>
+              <Route path="newblog" element={< NewBlog/>} />
+              <Route path=":id" element={<BlogPost />} />
+            </Route>
+            <Route path="Storage" element={<Storage/>}/>
+            <Route path="Pages" element={<Pages/>}/>
+          </Routes>
+        </SideBar>
+      
     </BrowserRouter>
   );
 }

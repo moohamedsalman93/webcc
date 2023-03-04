@@ -8,7 +8,7 @@ import '../css/Blog.css';
 function Blog() {
 
   return (
-    <div className='flex h-full w-full'>
+    <div className='content'>
       <SecSidebar>
           <Button>
               Create blog

@@ -1,6 +1,7 @@
 import React from 'react';
 import CardListData from '../Data/CardListData';
 import { useNavigate } from "react-router-dom";
+import '../css/Card.css';
 
 
 function Card({ post, onPostClick}) {
@@ -29,7 +30,7 @@ function CardList() {
   return (
     <div className="w-64 pl-2 pr-1">
       <div className="font-semibold text-xs my-2">List of Blogs</div>
-      <div className='h-[29rem] overflow-y-scroll'>
+      <div className='cardlist'>
         {
           CardListData.map(item => (
             <Card key={item.id}

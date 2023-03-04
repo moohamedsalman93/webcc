@@ -13,7 +13,7 @@ const CardListData = [
       authorAvatar: user,
       authorName: 'siraj',
       blogTitle: 'The reality of chasing pop',
-      blogShortDescription: 'It’s tempting for a creator. To make a pop hit, a song or a book or a meme that becomes a popular idea and part of the culture.',
+      blogShortDescription: 'It’s tempting for a creator. ajdhjahjh akjdklj To make a pop hit, a song or a book or a meme that becomes a popular idea and part of the culture.',
     },
     {
       id: 3,

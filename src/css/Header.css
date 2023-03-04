@@ -1,0 +1,16 @@
+.header{
+    height: 3.5rem/* 56px */;
+    --tw-bg-opacity: 1;
+    background-color: rgb(235 234 235 / var(--tw-bg-opacity));
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding-left: 1.25rem/* 20px */;
+    padding-right: 1.25rem/* 20px */;
+    padding-top: 0.5rem/* 8px */;
+    padding-bottom: 0.5rem/* 8px */;
+    justify-content: space-between;
+    overflow-x: hidden;
+    display: flex; 
+    border-bottom-width: 1px;
+}

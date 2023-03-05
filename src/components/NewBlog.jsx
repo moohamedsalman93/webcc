@@ -1,21 +1,22 @@
 import React from 'react'
 import downarrow from '../assets/downarrow.png';
 import eye from '../assets/eye.png';
+import '../css/NewBlog.css';
 
 function NewBlog() {
   return (
     
         <div>
-          <div className=' h-[60px] border-b flex justify-between items-center p-5'>
-            <div className=' font-roboto font-semibold'>Add Blog</div>
-            <div className='flex justify-between items-center space-x-2'>
-              <button className='px-5 py-1 bg-primary rounded-lg flex items-center space-x-1'>
-                <div className='text-white font-roboto text-base'>Draft</div>
-                <img src={downarrow} alt="My" className='h-[6px]'/>
+          <div className='newblog-header'>
+            <div className='newblog-header-title'>Add Blog</div>
+            <div className='newblog-header-container '>
+              <button className='newblog-header-container-button-draft'>
+                <div className='button-label'>Draft</div>
+                <img src={downarrow} alt="My" className='button-arrow'/>
               </button>
-              <button className='px-2 py-1 bg-primary rounded-lg flex items-center space-x-1'>
-                <div className='text-white font-roboto text-base'>Preview</div>
-                <img src={eye} alt="My" className='h-[20px]'/>
+              <button className='newblog-header-container-button-preview'>
+                <div className='button-label'>Preview</div>
+                <img src={eye} alt="My" className='button-eye'/>
               </button>
 
             </div>

@@ -8,3 +8,11 @@
     padding-left: 1rem/* 16px */;
     padding-right: 1.75rem/* 28px */;
 }
+
+.logo{
+    height: 2.5rem/* 40px */;
+}
+
+.user{
+    height: 3.5rem/* 56px */;
+}

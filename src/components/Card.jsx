@@ -2,6 +2,7 @@ import React from 'react';
 import CardListData from '../Data/CardListData';
 import { useNavigate } from "react-router-dom";
 import '../css/Card.css';
+import formatDate from '../utils/dateFormate';
 
 
 function Card({ post, onPostClick}) {
@@ -18,7 +19,7 @@ function Card({ post, onPostClick}) {
         <img src={post.authorAvatar} alt={post.authorName} className='card-image'/>
         <p className="card-label">{post.authorName}</p>
       </div>
-      <p className="card-date">Jan 9,2001</p>
+      <p className="card-date">{formatDate(post.date)}</p>
     </div>
   );
 }

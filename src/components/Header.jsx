@@ -7,8 +7,8 @@ import '../css/Header.css';
 const Header = () => {
     return (
       <div className='header-all'>
-        <img src={logo} alt="My" className='h-10'/>
-        <img src={user} alt="My" className='h-14'/>
+        <img src={logo} alt="My" className='logo'/>
+        <img src={user} alt="My" className='user'/>
       </div>
     );
   }

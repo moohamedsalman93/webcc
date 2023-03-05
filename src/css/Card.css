@@ -1,4 +1,87 @@
+.card-container{
+    width: 18rem/* 288px */;
+}
+
+.listofblog-name{
+    font-weight: 600;
+    font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+    margin-top: 0.5rem/* 8px */;
+    margin-bottom: 0px;
+    margin-left: 0.25rem/* 4px */;
+}
+
 .cardlist{
     height:78.5vh;
     overflow-y: scroll;
+
+}
+
+.card{
+    --tw-shadow: 0 3px 10px rgb(0,0,0,0.2);
+    --tw-shadow-colored: 0 3px 10px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(175 176 182 / var(--tw-border-opacity));
+    margin-left: 0.75rem/* 12px */;
+    margin-top: 1rem/* 16px */;
+    margin-bottom: 1rem/* 16px */;
+    padding: 0.625rem/* 10px */;
+    width: 16rem/* 256px */;
+    border-radius: 0.375rem/* 6px */;
+}
+
+.card-title{
+    font-size: 1.125rem/* 18px */;
+    line-height: 1.75rem/* 28px */;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgba(17, 27, 43, 1);
+    font-family: Roboto, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-desc{
+    color: rgba(17, 27, 43, 1);
+    font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    height: 4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-image-label{
+    display: flex;
+    align-items: center;
+    margin-left: -4px;
+    margin-top: 0.25rem/* 4px */;
+}
+
+.card-image{
+    height: 2.5rem/* 40px */;
+    width: 2.5rem/* 40px */;
+}
+
+.card-label{
+    font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    color: black;
+}
+
+.card-date{
+    font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    text-align: right;
+    margin-top: -14px;
+    color: black;
 }

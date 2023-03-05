@@ -1,20 +1,22 @@
-.main{
-    display: flex; 
+.buttoncon{
+    display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    margin-top: 4px;
 }
 
-.buston{
-     padding-top: 0.5rem/* 8px */;
-    padding-bottom: 0.5rem/* 8px */;
-     margin-top: 0.5rem/* 8px */;
-    margin-bottom: 0.5rem/* 8px */;
-    width: 10rem/* 160px */;
-     border-radius: 10px;
-      --tw-bg-opacity: 1;
-    background-color: rgb(58 3 46 / var(--tw-bg-opacity));
-     font-family: Roboto, sans-serif;
-      font-weight: 400;
-       --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
+.contbutton{
+    width: 160px;
+    padding-top:8px ;
+    padding-bottom: 8px ;
+    margin-top:  8px ;
+    margin-bottom: 8px ;
+    border-radius: 10px;
+    background-color: rgb(61, 4, 48);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: white;
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }

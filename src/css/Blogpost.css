@@ -1,0 +1,17 @@
+.Blog-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blog-post-icon{
+    width: 6rem/* 96px */;
+    height: 6rem/*96px*/;
+}
+
+.blog-post-desc{
+    padding-left: 8px;
+    padding-right: 8px;
+}

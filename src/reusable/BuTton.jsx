@@ -1,12 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import '../css/Button.css'
 
 
 function Button({children}) {
   return (
     <Link to="/Blog/newblog">  
-      <div className='flex flex-col items-center mt-1'>
-        <button className=' py-2 my-2 w-40 rounded-[10px] bg-primary font-roboto font-normal text-white'>
+      <div className='buttoncon'>
+        <button className='contbutton'>
           {children}
         </button>
       </div>

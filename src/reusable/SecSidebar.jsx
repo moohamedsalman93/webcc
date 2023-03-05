@@ -1,8 +1,9 @@
 import React from 'react';
+import '../css/SecSidebar.css';
 
 function SecSidebar({children}) {
   return (
-    <div className='border-r flex bg-white flex-col items-center'>
+    <div className='Secsidebar'>
         {children}
     </div>
   )

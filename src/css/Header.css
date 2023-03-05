@@ -1,15 +1,10 @@
-.header{
-    height: 7;
-    background-color: rgb(235 234 235);
-    
-    top: 0px;
-    width: 1920px;
-    padding-left: 1.25rem/* 20px */;
-    padding-right: 1.25rem/* 20px */;
-    padding-top: 0.5rem/* 8px */;
-    padding-bottom: 0.5rem/* 8px */;
+.header-all{
+    display: flex;
+    height: 3.5rem/* 56px */;
+    width: 100%;
     justify-content: space-between;
-    overflow-x: hidden;
-    display: flex; 
+    align-items: center;
     border-bottom-width: 1px;
+    padding-left: 1rem/* 16px */;
+    padding-right: 1.75rem/* 28px */;
 }

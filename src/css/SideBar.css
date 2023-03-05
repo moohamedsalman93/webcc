@@ -3,3 +3,30 @@
     height: calc(100vh - 56px);
     position: fixed;
 }
+
+.sidebar{
+     min-width: 70px;
+     max-width: 70px;
+     border-right-width: 1px;
+     background-color: rgba(235, 234, 235, 1);
+}
+
+.icontile{
+    display: flex;
+    flex-direction: column;
+    height: 66px;
+    padding-top: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-sidebar{
+    width: 20px;
+     height: 24px;
+}
+
+.label-sidebar{
+    color:black;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}

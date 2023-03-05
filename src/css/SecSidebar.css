@@ -1,0 +1,8 @@
+.Secsidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(248, 248, 248, 1);
+    border-right-width: 1px;
+    border-color: rgba(112, 112, 112, 0.5);
+    align-items: center;
+}

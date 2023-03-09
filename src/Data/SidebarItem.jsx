@@ -4,17 +4,17 @@ import storage from '../assets/storage.png';
 
 const SidebarItems=[
     {
-        path:"Blog",
+        path:"/Blog",
         name:"Blog",
         icon:blog
     },
     {
-        path:"Storage",
+        path:"/Storage",
         name:"Storage",
         icon:storage
     },
     {
-        path:"Pages",
+        path:"/Pages",
         name:"Pages",
         icon:blog
     }

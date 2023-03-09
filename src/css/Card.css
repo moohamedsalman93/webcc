@@ -39,7 +39,7 @@
     font-weight: 500;
     --tw-text-opacity: 1;
     color: rgba(17, 27, 43, 1);
-    font-family: Roboto, sans-serif;
+    font-family: Sarabun, sans-serif;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -50,7 +50,7 @@
     font-size: 0.75rem/* 12px */;
     line-height: 1rem/* 16px */;
     font-weight: 400;
-    font-family: Roboto, sans-serif;
+    font-family: Sarabun, sans-serif;
     height: 4em;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -72,7 +72,7 @@
     font-size: 0.75rem/* 12px */;
     line-height: 1rem/* 16px */;
     font-weight: 500;
-    font-family: Roboto, sans-serif;
+    font-family: Sarabun, sans-serif;
     color: black;
 }
 
@@ -80,7 +80,7 @@
     font-size: 0.75rem/* 12px */;
     line-height: 1rem/* 16px */;
     font-weight: 500;
-    font-family: Roboto, sans-serif;
+    font-family: Sarabun, sans-serif;
     text-align: right;
     margin-top: -14px;
     color: black;

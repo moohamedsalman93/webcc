@@ -30,3 +30,8 @@
     font-family: Roboto, sans-serif;
     font-size: 14px;
 }
+.active{
+    border-left-width: 7px;
+    border-color: rgb(61, 4, 48);
+    background-color: rgba(248, 248, 248, 1);
+}

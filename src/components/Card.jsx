@@ -7,7 +7,9 @@ import formatDate from '../utils/dateFormate';
 
 function Card({ post, onPostClick}) {
   const navigate = useNavigate();
+
   const handlePostClick = () => {
+    console.log(' id: %d\n title: %s\n description: %s',post.id,post.blogTitle,post.blogShortDescription);
     navigate(`/Blog/${post.id}`);
   }
 

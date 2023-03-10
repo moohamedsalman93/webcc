@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import CardListData from '../Data/CardListData';
 import { useNavigate } from "react-router-dom";
 import '../css/Card.css';
@@ -27,15 +27,16 @@ function Card({ post, onPostClick}) {
 }
 
 
-function CardList() {
-
+function CardList({query}) {
+  
 
   return (
     <div className="card-container">
+      
       <div className="listofblog-name">List of Blogs</div>
       <div className='cardlist'>
         {
-          CardListData.map(item => (
+          CardListData.filter((item)=>item.cat.includes(query)).map((item) => (
             <Card key={item.id}
               post={item}
             />

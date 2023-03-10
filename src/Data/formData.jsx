@@ -15,8 +15,15 @@ const formData = [
       },
       {
         id: 3,
+        Name: "multivalue",
+        type: "multivalue",
+        placeholder: "multivalue",
+        required: true
+      },
+      {
+        id: 4,
         Name: "Richtext",
-        type: "richtext",
+        type: "Richtext",
         placeholder: "Enter your name",
         required: true
       },
